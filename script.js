@@ -106,6 +106,7 @@ function handleMove(evt) {
   }
   render()
 }
+
 function getWinner () {
     let winnerIndex;
     for (let i = 0; i < winningCombination.length; i++) {
@@ -120,7 +121,6 @@ function getWinner () {
       if (total === 3) {
         winner = board[winnerIndex];
          return;
-      
       }  
     }
   }
